@@ -44,85 +44,9 @@
 
 }
 
-.relative {
-    position: relative;
-}
-
-.content {
-    position: absolute;
-}
-
-/* 
-Thanks to https://stackoverflow.com/questions/43806515/position-svg-elements-over-an-image
-*/
-.imageContainer {
-    float: right;
-    position: relative;
-    width: 24.5%;
-}
-
-.imageContainer img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.imageContainer svg {
-    position: absolute;
-    margin: 0;
-    top: 27%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-}
-
-.questions {
-    position: absolute;
-    margin: 0;
-    background-color: rgb(180, 169, 248);
-    color: aliceblue;
-    padding: 3%;
-    font-size: 1.5em;
-    top: 50%;
-    left: 35%;
-}
-
-@media(min-width:1950px) {
-    .questions {
-        left: 40%;
-    }
-}
-
-@media(min-width:2500px) {
-    .questions {
-        left: 43%;
-    }
-}
-
-@media(max-width:1400px) {
-    .questions {
-        left: 25%;
-    }
-}
-
-@media(max-width:1100px) {
-    .questions {
-        left: 20%;
-    }
-}
-
-@media(max-width:1000px) {
-    .questions {
-        left: 15%;
-    }
-}
-
 @media (max-width:915px) {
     .title {
         font-size: 1.5em;
-    }
-
-    .questions {
-        left: 10%;
     }
 }
 
@@ -130,16 +54,9 @@ Thanks to https://stackoverflow.com/questions/43806515/position-svg-elements-ove
     .title {
         font-size: 1.2em;
     }
-
-    .questions {
-        left: 5%;
-    }
 }
 
 @media (max-width:770px) {
-    .imageContainer {
-        display: none;
-    }
     .register {
         display: none;
     }
@@ -208,4 +125,8 @@ Thanks to https://stackoverflow.com/questions/43806515/position-svg-elements-ove
     .register, .mobileDisplay {
         border-radius: 0px !important;
     }
+}
+
+.triangleAndContent {
+    display: block;   
 }

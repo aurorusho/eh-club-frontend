@@ -1,5 +1,5 @@
-body {
-  height: 100%;
+body, #root {
+  min-height: 100vh;
   margin: 0;
   font-family: sans-serif;
   background: linear-gradient(90deg, rgb(93, 135, 250) 0%, rgb(47, 50, 255) 100%);
