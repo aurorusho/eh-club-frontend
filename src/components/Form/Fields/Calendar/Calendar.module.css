@@ -1,0 +1,12 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
