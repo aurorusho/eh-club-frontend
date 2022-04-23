@@ -3,7 +3,7 @@
     vertical-align: top;
 }
 .nestedContainer {
-    width: 45vw;
+    width: 40vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;

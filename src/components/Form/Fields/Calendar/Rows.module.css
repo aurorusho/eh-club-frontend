@@ -8,30 +8,26 @@
     text-align: center;
 }
 .row {
-    font-size: 1em;
+    font-size: 0.8em;
 }
-@media (max-width:1300px) {
-    .row {
-        font-size: 0.8em;
-    }
-}
+
 @media (max-width:1200px) {
-    .row {
+    .row, .firstRow {
         font-size: 0.6em;
     }
 }
 @media (max-width:990px) {
-    .row {
+    .row, .firstRow {
         font-size: 0.6em;
     }
 }
 @media (max-width:770px) {
-    .row {
-        font-size: 1em;
+    .row, .firstRow {
+        font-size: 0.8em;
     }
 }
 @media (max-width:250px) {
-    .row {
+    .row, .firstRow {
         font-size: 0.5em;
     }
 }

@@ -19,7 +19,7 @@ const Header = () => {
         <div>
             <nav className={styles.nav}>
                 <div className={styles.title}>
-                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <h1>Club de Ethical Hacking - CIDEB</h1>
                 </div>
                 <Card className={registerStyles} onClick={registerClickHandler}>
                     Registro

@@ -128,5 +128,5 @@
 }
 
 .triangleAndContent {
-    display: block;   
+    display: inline-block;   
 }

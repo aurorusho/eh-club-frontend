@@ -4,6 +4,8 @@ import NameInputs from "./Fields/NameInputs"
 import GroupInput from "./Fields/GroupInput/GroupInput";
 import MailInput from "./Fields/MailInput/MailInput";
 import Calendar from "./Fields/Calendar/Calendar";
+import Checkbox from './Fields/Checkbox/Checkbox';
+import Submit from './Fields/Submit/Submit';
 
 const Form = () => {
     return (
@@ -12,6 +14,8 @@ const Form = () => {
             <GroupInput />
             <MailInput />
             <Calendar />
+            <Checkbox />
+            <Submit />
         </form>
     )
 }

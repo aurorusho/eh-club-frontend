@@ -10,20 +10,20 @@ const Boxes = ({ registering }) => {
         <div className={styles.container}>
             <div className={containerStyle}>
                 <Box
-                    title="Lorem ipsum"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    title="Objetivo"
+                    text="Instruir y aprender profundamente sobre temas de ethical hacking y ciberseguridad."
                 />
                 <Box
-                    title="Lorem ipsum"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"
+                    title="Conocimientos"
+                    text="Aprenderemos las bases de computación; los lenguajes de programación python y bash; y su uso en la ciberseguridad; entre otras cosas."
                 />
                 <Box
-                    title="Lorem ipsum"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+                    title="Requisitos"
+                    text="Tener una computadora con un mínimo de 4GB de memoria RAM y un disco duro con un mínimo de 124GB de almacenamiento."
                 />
                 <Box
-                    title="Lorem ipsum"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d"
+                    title="Organización"
+                    text="Los horarios se decidirán según la disponibilidad de los miembros indicada en el formulario de registro."
                 />
             </ div>
         </div>
