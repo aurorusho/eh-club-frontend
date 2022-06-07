@@ -3,7 +3,7 @@ import inputStyles from '../../../UI/Input/Input.module.css';
 import Rows from './Rows';
 
 
-const Calendar = () => {
+const Calendar = ({ clickHandler }) => {
     const labelClassName = `${inputStyles.label} ${styles.label}`
     return (
         <div>
@@ -11,7 +11,7 @@ const Calendar = () => {
                 Disponibilidad:
             </div>
             <div className={styles.calendar}>
-                <Rows />
+                <Rows clickHandler={clickHandler}/>
             </div>
         </ div>
     )

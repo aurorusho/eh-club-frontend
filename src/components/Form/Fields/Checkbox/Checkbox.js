@@ -1,9 +1,10 @@
 import styles from './Checkbox.module.css';
+import targetBlank from '../../../../values/targetBlank';
 
-const Checkbox = ({ changeHandler }) => {
+const Checkbox = ({ changeHandler, value }) => {
     const id = "checkbox"
     const adviseLink = (
-        <a href="/Reglamento_club.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/Reglamento_club.pdf" {...targetBlank}>
             reglamento
         </a>
     )
@@ -15,8 +16,10 @@ const Checkbox = ({ changeHandler }) => {
                 onChange={changeHandler}
                 id={id}
                 className={styles.input}
+                value={value}
+                checked={value}
             />
         </div>
     )
 };
-export default Checkbox
+export default Checkbox;

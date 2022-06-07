@@ -1,7 +1,7 @@
 import Input from '../../../UI/Input/Input';
 import styles from './GroupInput.module.css';
 
-const GroupInput = ({ changeHandler }) => {
+const GroupInput = ({ changeHandler, value }) => {
     return (
         <Input
             type="number"
@@ -11,6 +11,7 @@ const GroupInput = ({ changeHandler }) => {
             changeHandler={changeHandler}
             min="100"
             max="700"
+            value={value}
         />
     )
 }

@@ -1,7 +1,7 @@
 import Input from "../../../UI/Input/Input";
 import styles from './MailInput.module.css';
 
-const MailInput = ({ changeHandler }) => {
+const MailInput = ({ changeHandler, value }) => {
     return (
         <Input
             type="email"
@@ -9,6 +9,7 @@ const MailInput = ({ changeHandler }) => {
             id="email"
             changeHandler={changeHandler}
             className={styles.input}
+            value={value}
         />
     );
 

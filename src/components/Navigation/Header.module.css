@@ -1,6 +1,6 @@
 .nav {
     font-family: bizudGothic;
-    background: linear-gradient(90deg, rgb(125, 58, 124) 0%, rgba(0, 71, 255, 1) 100%);
+    background: linear-gradient(90deg, rgb(110, 64, 150) 0%, rgb(72,64,180) 100%);
 
     display: grid;
     margin: 0;
@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
 
-    background: linear-gradient(90deg, purple 0%, rgb(126, 64, 125) 100%);
+    background: linear-gradient(90deg, rgb(128, 50,128) 0%, rgb(126, 64, 125) 100%);
 
     font-size: 2.2em;
     font-weight: bold;
@@ -125,8 +125,4 @@
     .register, .mobileDisplay {
         border-radius: 0px !important;
     }
-}
-
-.triangleAndContent {
-    display: inline-block;   
 }

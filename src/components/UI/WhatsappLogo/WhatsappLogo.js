@@ -2,13 +2,14 @@
 import styles from './WhatsappLogo.module.css';
 
 
-const WhatsappLogo = ({ size }) => {
+const WhatsappLogo = ({ className }) => {
+    const styleClassName = className ? `${className} ` : ''
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 1219.547 1225.016"
-            className={styles.svg}
+            className={styleClassName + styles.svg}
         >
             <path
                 fill="#E0E0E0"

@@ -6,11 +6,12 @@ body, #root {
 }
 
 @font-face {
-  font-family: "chijayaJun";
-  src: url("./fonts/chijaya-jun.ttf");
-}
-
-@font-face {
   font-family: "bizudGothic";
   src: url("./fonts/BIZUDGothic-Regular.ttf");
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }

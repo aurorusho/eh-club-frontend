@@ -7,17 +7,14 @@ const Input = (props) => {
         id,
         changeHandler,
         className,
-        labelClassName,
-        ...inputProperties
+        value,
     } = props;
     const inputClassName = className ? `${className} ` : ''
-    
     // Check for type in props
     let { type } = props;
     if (!type) {
         type = "text";
     }
-
     return (
         <div className={styles.container}>
             <label className={styles.label} htmlFor={id}>
@@ -28,7 +25,7 @@ const Input = (props) => {
                 className={inputClassName + styles.input}
                 id={id}
                 onChange={changeHandler}
-                {...inputProperties}
+                value={value}
             />
         </div>
     );

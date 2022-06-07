@@ -1,19 +1,21 @@
 import Input from '../../UI/Input/Input';
 
-const NameInputs = ({ firstNameChangeHandler, lastNameChangeHandler }) => {
+const NameInputs = ({ firstNameValue, firstNameChangeHandler, lastNameValue, lastNameChangeHandler }) => {
     return (
         <>
             <Input
                 label="Nombre(s):"
                 id="firstName"
-                onChange={firstNameChangeHandler}
+                changeHandler={firstNameChangeHandler}
                 maxLength="30"
+                value={firstNameValue}
             />
             <Input
                 label="Apellido(s):"
                 id="lastName"
-                onChange={lastNameChangeHandler}
+                changeHandler={lastNameChangeHandler}
                 maxLength="30"
+                value={lastNameValue}
             />
         </>
     )
